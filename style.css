@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.transform {
+  background: #0e6e84;
+  padding: 100px 0;
+  transform: skew(0deg, -6deg) translateY(-110px);
+  position: relative;
+}
+.image-container {
+  margin-top: -150px;
+  margin-left: 43%;
+  position: absolute;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+}
+.masai-learnings {
+  height: 220px;
+  width: 220px;
+  border: 10px solid #529ceb;
+}
+.summary {
+  margin: 10px;
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 700px) {
+  .summary {
+    width: 90%;
+  }
+  .image-container {
+    margin-left: 135px;
+  }
+}
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border: 7px solid #ffc831;
+}
